@@ -1,0 +1,35 @@
+<div class="container">
+  <app-navbar></app-navbar>
+  <div style="margin-top: 60px">
+    <div style="display:flex">
+      <mat-card
+        *ngFor="let item of parkingLotOverview"
+        class="example-card"
+        [ngStyle]="{ 'background-color': 'GhostWhite' }"
+      >
+        <mat-card-header [ngStyle]="{ 'background-color': 'Gainsboro' }">
+          <mat-card-title class="text-oneline">{{
+            item.parkingLotName
+          }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-8" *ngFor="let vehicle of item.vehicleType">
+                <b>{{ vehicle.type }}</b>
+                <div class="row">
+                  Capacity :
+                  {{ vehicle.capacity.remaining }}/{{ vehicle.capacity.total }}
+                </div>
+                <div class="row" *ngFor="let price of vehicle.prices">
+                  Price : {{ price.minHour }} To {{ price.maxHour }} Hour: RS
+                  {{ price.amount }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

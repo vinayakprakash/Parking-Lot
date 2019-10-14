@@ -1,0 +1,144 @@
+<div class="modal-header">
+  <h4 class="modal-title">Log Vehicle</h4>
+  <button
+    type="button"
+    class="close"
+    aria-label="Close"
+    (click)="activeModal.dismiss('Cross click')"
+  >
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-2">
+      <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="parkingLotName">Parking Lot Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="parkingLotName"
+            id="parkingLotName"
+          />
+          <div
+            *ngIf="submitted && userForm.controls.parkingLotName.errors"
+            class="error"
+          >
+            <div *ngIf="userForm.controls.parkingLotName.errors.required">
+              Parking Lot Name is required
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="vehicleType">Vehicle Type:</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="vehicleType"
+            id="vehicleType"
+          />
+          <div
+            *ngIf="submitted && userForm.controls.vehicleType.errors"
+            class="error"
+          >
+            <div *ngIf="userForm.controls.vehicleType.errors.required">
+              Vehicle Type is required
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="vehicleRegistrationNumber">Vehicle Number:</label>
+          <input
+            type="vehicleRegistrationNumber"
+            class="form-control"
+            formControlName="vehicleRegistrationNumber"
+            id="vehicleRegistrationNumber"
+          />
+          <div
+            *ngIf="
+              submitted && userForm.controls.vehicleRegistrationNumber.errors
+            "
+            class="error"
+          >
+            <div
+              *ngIf="
+                userForm.controls.vehicleRegistrationNumber.errors.required
+              "
+            >
+              Vehicle Registration Number is required
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="weight">Weight:</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="weight"
+            id="weight"
+          />
+          <div
+            *ngIf="submitted && userForm.controls.weight.errors"
+            class="error"
+          >
+            <div *ngIf="userForm.controls.weight.errors.required">
+              Weight is required
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inTime">In Time:</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="inTime"
+            id="inTime"
+          />
+          <div
+            *ngIf="submitted && userForm.controls.inTime.errors"
+            class="error"
+          >
+            <div *ngIf="userForm.controls.inTime.errors.required">
+              In Time is required
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="outTime">Out Time:</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="outTime"
+            id="outTime"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="amountReceived">Amount Received:</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="amountReceived"
+            id="amountReceived"
+          />
+        </div>
+
+        <button
+          class="btn btn-primary"
+          (click)="activeModal.close('Close click')"
+        >
+          Submit
+        </button>
+        <div *ngIf="invalidLogin" class="error">
+          <div>Invalid credentials.</div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

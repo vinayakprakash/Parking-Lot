@@ -1,0 +1,16 @@
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\bin\Debug\netcoreapp2.1\ParkingLot.Domain.deps.json
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\bin\Debug\netcoreapp2.1\ParkingLot.Domain.dll
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\bin\Debug\netcoreapp2.1\ParkingLot.Domain.pdb
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.AssemblyInfoInputs.cache
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.AssemblyInfo.cs
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.dll
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.pdb
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\bin\Debug\netcoreapp2.1\ParkingLot.Domain.deps.json
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\bin\Debug\netcoreapp2.1\ParkingLot.Domain.dll
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\bin\Debug\netcoreapp2.1\ParkingLot.Domain.pdb
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.csproj.CoreCompileInputs.cache
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.AssemblyInfoInputs.cache
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.AssemblyInfo.cs
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.dll
+D:\ParkingLot\Parking-Lot\Service\ParkingLot.Domain\obj\Debug\netcoreapp2.1\ParkingLot.Domain.pdb

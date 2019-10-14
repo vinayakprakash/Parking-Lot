@@ -1,0 +1,16 @@
+C:\Users\vinay\source\repos\ParkingLot\Authorization\bin\Debug\netcoreapp2.1\Authorization.deps.json
+C:\Users\vinay\source\repos\ParkingLot\Authorization\bin\Debug\netcoreapp2.1\Authorization.dll
+C:\Users\vinay\source\repos\ParkingLot\Authorization\bin\Debug\netcoreapp2.1\Authorization.pdb
+C:\Users\vinay\source\repos\ParkingLot\Authorization\obj\Debug\netcoreapp2.1\Authorization.csproj.CoreCompileInputs.cache
+C:\Users\vinay\source\repos\ParkingLot\Authorization\obj\Debug\netcoreapp2.1\Authorization.AssemblyInfoInputs.cache
+C:\Users\vinay\source\repos\ParkingLot\Authorization\obj\Debug\netcoreapp2.1\Authorization.AssemblyInfo.cs
+C:\Users\vinay\source\repos\ParkingLot\Authorization\obj\Debug\netcoreapp2.1\Authorization.dll
+C:\Users\vinay\source\repos\ParkingLot\Authorization\obj\Debug\netcoreapp2.1\Authorization.pdb
+D:\ParkingLot\Parking-Lot\Service\Authorization\bin\Debug\netcoreapp2.1\Authorization.deps.json
+D:\ParkingLot\Parking-Lot\Service\Authorization\bin\Debug\netcoreapp2.1\Authorization.dll
+D:\ParkingLot\Parking-Lot\Service\Authorization\bin\Debug\netcoreapp2.1\Authorization.pdb
+D:\ParkingLot\Parking-Lot\Service\Authorization\obj\Debug\netcoreapp2.1\Authorization.csproj.CoreCompileInputs.cache
+D:\ParkingLot\Parking-Lot\Service\Authorization\obj\Debug\netcoreapp2.1\Authorization.AssemblyInfoInputs.cache
+D:\ParkingLot\Parking-Lot\Service\Authorization\obj\Debug\netcoreapp2.1\Authorization.AssemblyInfo.cs
+D:\ParkingLot\Parking-Lot\Service\Authorization\obj\Debug\netcoreapp2.1\Authorization.dll
+D:\ParkingLot\Parking-Lot\Service\Authorization\obj\Debug\netcoreapp2.1\Authorization.pdb

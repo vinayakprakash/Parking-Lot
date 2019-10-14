@@ -1,0 +1,35 @@
+<div class="container">
+  <app-navbar></app-navbar>
+  <div style="margin-top: 60px">
+    <div class="row">
+      <a a routerLink="" (click)="open()">
+        <button class="btn btn-sm btn-success button">Add</button>
+      </a>
+      <button
+        style="margin-left: 20px;"
+        class="btn btn-sm btn-primary row"
+        (click)="editLog()"
+      >
+        Edit
+      </button>
+      <!-- <button class="button">Hello</button>
+      <button class="button">Another One</button> -->
+    </div>
+    <div class="row">
+      <ag-grid-angular
+        style="width: 100%; height: 600px;"
+        class="ag-theme-blue"
+        (gridReady)="onGridReady($event)"
+        [columnDefs]="columnDefs"
+        [rowData]="vehicleLog"
+        rowSelection="single"
+        pagination="true"
+        paginationPageSize="25"
+        (selectionChanged)="onSelectionChanged($event)"
+        (cellEditingStopped)="onCellEditingStopped($event)"
+        (dataChanged)="onrowValueChanged($event)"
+      >
+      </ag-grid-angular>
+    </div>
+  </div>
+</div>

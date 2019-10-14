@@ -1,0 +1,13 @@
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\bin\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.deps.json
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\bin\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.dll
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\obj\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.csproj.CoreCompileInputs.cache
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\obj\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.AssemblyInfoInputs.cache
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\obj\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.AssemblyInfo.cs
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\obj\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.csprojAssemblyReference.cache
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\bin\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.pdb
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\obj\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.dll
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\obj\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.pdb
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\bin\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.runtimeconfig.json
+C:\Users\vinay\source\repos\ParkingLot\ParkingLot.Infra.Tests\bin\Debug\netcoreapp2.1\ParkingLot.Infra.Tests.runtimeconfig.dev.json
