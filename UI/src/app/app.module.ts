@@ -29,6 +29,7 @@ import { TokenizedInterceptor } from './tokenized.interceptor';
 import { AgGridModule } from 'ag-grid-angular';
 import { VehiclelogComponent } from './vehiclelog/vehiclelog.component';
 import { AddVehicleLogComponent } from './add-vehiclelog/add-vehiclelog.component';
+import { AdministrationComponent } from './administration/administration.component';
 const customNotifierOptions: NotifierOptions = {
   position: {
     horizontal: {
@@ -78,7 +79,8 @@ const customNotifierOptions: NotifierOptions = {
     RegisterComponent,
     NavbarComponent,
     VehiclelogComponent,
-    AddVehicleLogComponent
+    AddVehicleLogComponent,
+    AdministrationComponent
   ],
   imports: [
     BrowserModule,

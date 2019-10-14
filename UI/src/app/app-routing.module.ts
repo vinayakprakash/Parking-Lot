@@ -6,6 +6,7 @@ import { AuthGuard } from './services/auth.guard';
 import { NgModule } from '@angular/core';
 import { VehiclelogComponent } from './vehiclelog/vehiclelog.component';
 import { AddVehicleLogComponent } from './add-vehiclelog/add-vehiclelog.component';
+import { AdministrationComponent } from './administration/administration.component';
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -24,6 +25,11 @@ export const rootRouterConfig: Routes = [
   {
     path: 'addvehiclelog',
     component: AddVehicleLogComponent
+  },
+  {
+    path: 'administration',
+    component: AdministrationComponent,
+    canActivate: [AuthGuard]
   }
 ];
 @NgModule({

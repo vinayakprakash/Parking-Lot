@@ -8,12 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   constructor(private authService: AuthService) {}
   public showVehicleLog: boolean;
+  public showAdministration: boolean;
   ngOnInit(): void {
     if (
       sessionStorage.getItem('profile') === 'Operator' ||
       sessionStorage.getItem('profile') === 'Admin'
     ) {
       this.showVehicleLog = true;
+    }
+
+    if (sessionStorage.getItem('profile') === 'Admin') {
+      this.showAdministration = true;
     }
   }
 
